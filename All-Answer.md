@@ -40,7 +40,6 @@ Automatically check:
 10. ./decrypt.sh files/87590c24 (enter then get flag)
 11. picoCTF{trust_but_verify_87590c24} (this is the answer of the flag)
 
-
 # 2
 
 Forensics
@@ -78,3 +77,34 @@ or
 
 5. zbarimg flag.png
 6. picoCTF{p33k_@_b00_7843f77c}
+
+
+# 3
+
+General Skills
+Binary Search
+
+Author: Jeffery John
+
+Description
+Want to play a game? As you use more of the shell, you might be interested in how they work! Binary search is a classic algorithm used to quickly find an item in a sorted list. Can you find the flag? You'll have 1000 possibilities and only 10 guesses.
+Cyber security often has a huge amount of data to look through - from logs, vulnerability reports, and forensics. Practicing the fundamentals manually might help you in the future when you have to write your own tools!
+You can download the challenge files here:
+challenge.zip (https://artifacts.picoctf.net/c_atlas/5/challenge.zip)
+Additional details will be available after launching your challenge instance.
+
+ssh -p 56235 ctf-player@atlas.picoctf.net
+Using the password 1ad5be0d. Accept the fingerprint with yes, and ls once connected to begin. Remember, in a shell, passwords are hidden!
+
+Answer:
+Guess: 207 (for me)
+picoCTF{g00d_gu355_3af33d18}
+
+1. download zip
+2. run bash file in terminal "./file.sh"
+3. guess your number (207 for me)
+4. get flag "picoCTF{g00d_gu355_3af33d18}"
+
+or
+
+open webshell then connect ssh with pass then auto run file.sh. just guess your number then boom your answer.
