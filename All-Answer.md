@@ -78,7 +78,6 @@ or
 5. zbarimg flag.png
 6. picoCTF{p33k_@_b00_7843f77c}
 
-
 # 3
 
 General Skills
@@ -108,3 +107,35 @@ picoCTF{g00d_gu355_3af33d18}
 or
 
 open webshell then connect ssh with pass then auto run file.sh. just guess your number then boom your answer.
+
+
+# 4
+
+# Binary Exploitation
+
+heap 0
+
+Author: Abrxs, pr1or1tyQ
+
+Description
+Are overflows just a stack concern?
+Download the binary here (https://artifacts.picoctf.net/c_tethys/15/chall).
+Download the source here (https://artifacts.picoctf.net/c_tethys/15/chall.c).
+Additional details will be available after launching your challenge instance.
+
+Connect with the challenge instance here:
+nc tethys.picoctf.net 64643
+
+Answer:
+
+1. open webshell
+2. connect nc (nc tethys.picoctf.net 64643)
+3. see heap
+4. download source code
+5. analyze code (here showing buffer overflow function. if input data more than 5 bytes then it's cracked. then you can print the flag)
+6. print 2 for input buffer.
+7. write anything must be more than 10/15 character for buffer overflow.
+8. again print heap and see the changes.
+9. finally print 4 for see flag "picoCTF{my_first_heap_overflow_0c473fe8}"
+
+Your flag might be looking like this.
