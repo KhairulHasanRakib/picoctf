@@ -108,7 +108,6 @@ or
 
 open webshell then connect ssh with pass then auto run file.sh. just guess your number then boom your answer.
 
-
 # 4
 
 # Binary Exploitation
@@ -139,3 +138,28 @@ Answer:
 9. finally print 4 for see flag "picoCTF{my_first_heap_overflow_0c473fe8}"
 
 Your flag might be looking like this.
+
+# 5
+
+Format String
+
+Author: Cheng Zhang
+
+Description
+Can you use your knowledge of format strings to make the customers happy?
+Download the binary here. (https://artifacts.picoctf.net/c_mimas/69/format-string-0)
+Download the source here. (https://artifacts.picoctf.net/c_mimas/69/format-string-0.c)
+Additional details will be available after launching your challenge instance.
+
+Connect with the challenge instance here:
+nc mimas.picoctf.net 49634
+
+Answer:
+
+1. open shell
+2. connect server
+3. read source code and understand (user input available and if input overflow 2 * BUFSIZE then server destroy.
+4. input very long string for buffer overflow
+5. get flag like (picoCTF{7h3_cu570m3r_15_n3v3r_SEGFAULT_dc0f36c4})
+
+Flag is: picoCTF{7h3_cu570m3r_15_n3v3r_SEGFAULT_dc0f36c4}
